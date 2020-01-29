@@ -208,6 +208,9 @@
 							<goal>jar</goal>
 							<goal>javadoc</goal>
 						</goals>
+		                <configuration>
+		                    <doclint>none</doclint>
+		                </configuration>
 					</execution>
 					<execution>
 						<id>site</id>
@@ -215,6 +218,9 @@
 						<goals>
 							<goal>javadoc</goal>
 						</goals>
+		                <configuration>
+		                    <doclint>none</doclint>
+		                </configuration>
 					</execution>
 				</executions>
 			</plugin>
