@@ -18,21 +18,17 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.github.albfernandez</groupId>
+	<groupId>log4jv12</groupId>
 	<artifactId>log4j</artifactId>
 	<packaging>bundle</packaging>
 	<name>Apache Log4j</name>
-	<version>1.2.18-SNAPSHOT</version>
+	<version>1.2.18c</version>
 	<description>Apache Log4j 1.2</description>
-	<url>https://github.com/albfernandez/log4j/</url>
+	<url>https://github.com/Anlon-Burke/log4j/</url>
 	<issueManagement>
 		<system>GitHub</system>
-		<url>https://github.com/albfernandez/log4j/issues</url>
+		<url>https://github.com/Anlon-Burke/log4j/issues</url>
 	</issueManagement>
-	<ciManagement>
-		<system>Travis</system>
-		<url>https://travis-ci.org/albfernandez/log4j</url>
-	</ciManagement>
 	<inceptionYear>1999</inceptionYear>
 
 	<licenses>
@@ -43,16 +39,16 @@
 		</license>
 	</licenses>
     <scm>
-        <connection>scm:git:git@github.com:albfernandez/log4j.git</connection>
-        <developerConnection>scm:git:git@github.com:albfernandez/log4j.git</developerConnection>
-        <url>git@github.com:albfernandez/log4j.git</url>
+        <connection>scm:git:git@github.com:Anlon-Burke/log4j.git</connection>
+        <developerConnection>scm:git:git@github.com:Anlon-Burke/log4j.git</developerConnection>
+        <url>git@github.com:Anlon-Burke/log4j.git</url>
     </scm>
 	<developers>
 		<developer>
-			<name>Alberto Fernández</name>
-			<email>infjaf@gmail.com</email>
-			<organization>Alberto Fernández</organization>
-			<organizationUrl>https://github.com/albfernandez/</organizationUrl>
+			<name>Anlon Burke</name>
+			<email>Anlon-Burke@users.noreply.github.com</email>
+			<organization>Anlon Burke</organization>
+			<organizationUrl>https://github.com/Anlon-Burke/</organizationUrl>
 		</developer>
 	</developers>
 	<build>
